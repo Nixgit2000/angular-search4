@@ -1,4 +1,7 @@
 <div style="display: block; padding-bottom: 10px;">
+
+
+
 <div id="container1a"><div id="container2">
     <div id="box1" *ngFor="let dataPoints of lotr;">
     
@@ -12,6 +15,9 @@
     </div>
     </div></div>
 
+
+
+
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of data;">
 
@@ -24,4 +30,19 @@
 </div>
 </div>
 </div>
+
+
+<div id="container1b"><div id="container2">
+    <div id="box1" *ngFor="let dataPoints of starwars;">
+    
+        <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+        <div id="A">{{dataPoints.title}}</div>
+        <div id="B">{{dataPoints.title2}}</div>
+        <div id="C"></div>
+    
+    </div>
+    </div>
+    </div></div>
+
 </div>

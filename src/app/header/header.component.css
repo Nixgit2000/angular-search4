@@ -1,3 +1,5 @@
+@font-face { font-family: Neon; src: url('../../assets/Neons_demo.otf'); } 
+
 #header {
     height: 100px;
    
@@ -8,8 +10,9 @@ p {
     position: relative; 
     left: 250px;
     top: -70px;
-    color: rgb(186, 186, 157);
-    text-shadow: 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px rgb(128, 128, 128);
+    font-family: Neon;
 }
 #logo {
     background-color: black;

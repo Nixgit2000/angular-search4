@@ -14,14 +14,24 @@
     animation: slider1 300s infinite;
 
 }
+#container1b {
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2015/09/26/empire-strikes-back.jpg");
+    animation: slider2 100s infinite;
 
+}
 @keyframes slider1 {
 
 0% {background-position: 10% 10%}
 50% {background-position: 80% 80%}
 100% {background-position: 10% 10%}
 }
+@keyframes slider2 {
 
+    0% {background-position: 0% 0%}
+    50% {background-position: 100% 100%}
+    100% {background-position: 0% 0%}
+    }
+    
 
 #container2 {
     background-color: transparent;
