@@ -6,10 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent {
+  featured = [
+    {title: "The Lord of the Rings", title2: "The Fellowship of the Ring", year: "2001", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/5m0zjctrxy9HeSAtnGWNLlsnr8z.jpg", url: "https://www.youtube.com/watch?v=V75dMMIW2B4" , IMDB: "8.9", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Sean Bean, Dominic Monaghan, Billy Boyd",},
+    {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2002", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/mw2Zhm2PguTRDc4jMwV6VpLhCOr.jpg", url: "https://www.youtube.com/watch?v=hYcw5ksV8YQ" , IMDB: "8.7", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
+    {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2003", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/A0uT7ELKhgCB10qubggn1q86DUV.jpg", url: "https://www.youtube.com/watch?v=y2rYRu8UW8M" , IMDB: "9.0", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
+  ]  
 data = [
-  {title: "The Lord of the Rings", title2: "The Fellowship of the Ring", year: "2001", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/5m0zjctrxy9HeSAtnGWNLlsnr8z.jpg", url: "https://www.youtube.com/watch?v=V75dMMIW2B4" , IMDB: "8.9", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Sean Bean, Dominic Monaghan, Billy Boyd",},
-  {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2002", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/mw2Zhm2PguTRDc4jMwV6VpLhCOr.jpg", url: "https://www.youtube.com/watch?v=hYcw5ksV8YQ" , IMDB: "8.7", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
-  {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2003", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/A0uT7ELKhgCB10qubggn1q86DUV.jpg", url: "https://www.youtube.com/watch?v=y2rYRu8UW8M" , IMDB: "9.0", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
   {title: "The Hobbit", title2: "an Unexpected Journey", year: "2012", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/4ycKLoRXteeHSllfAQl8jTNv6qS.jpg", url: "https://www.youtube.com/watch?v=SDnYMbYB-nU" , IMDB: "7.8", actor: "Martin Freeman, Richard Armitage, Ian McKellen, Cate Blanchett, Benedict Cumberbatch",},
   {title: "The Hobbit", title2: "the Desolation of Smaug", year: "2013", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/qOKPhHqh7Eymsovk2bKyca59iC6.jpg", url: "https://www.youtube.com/watch?v=fnaojlfdUbs" , IMDB: "7.8", actor: "Martin Freeman, Richard Armitage, Ian McKellen, Cate Blanchett, Benedict Cumberbatch",},
   {title: "The Hobbit", title2: "the Battle of the Five Armies", year: "2014", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/x4ck5q78vzURwnV65O0VjrlomtR.jpg", url: "https://www.youtube.com/watch?v=iVAgTiBrrDA" ,IMDB: "7.4", actor: "Martin Freeman, Richard Armitage, Ian McKellen, Cate Blanchett, Benedict Cumberbatch",},
@@ -27,4 +29,6 @@ data = [
   
 
 ]
+  number = Math.round(Math.floor(Math.random() * 10))
+
 }

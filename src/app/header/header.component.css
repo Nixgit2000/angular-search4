@@ -1,0 +1,18 @@
+#header {
+    height: 100px;
+}
+
+#logo {
+    background-color: black;
+    height: 100px;
+    width: 100vw;
+}
+img {
+    padding: 10px;
+    padding-left: 20px;
+    transition: .2s;
+}
+img:hover {
+    scale: 1.1;
+    transition: .2s;
+}

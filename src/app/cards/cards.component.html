@@ -1,10 +1,27 @@
-<div id="container">
-<div id="box" *ngFor="let dataPoints of data">
+<div style="display: block; padding-bottom: 10px;">
+<div id="container1a"><div id="container2">
+    <div id="box1" *ngFor="let dataPoints of featured;">
+    
+        <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+        <div id="A">{{dataPoints.title}} ({{dataPoints.year}})</div>
+        <div id="B">{{dataPoints.title2}}</div>
+        <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+    
+    </div>
+    </div>
+    </div></div>
+
+<div id="container2">
+<div id="box" *ngFor="let dataPoints of data;">
+
     <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
 <div id="card-grid">    
     <div id="A">{{dataPoints.title}} ({{dataPoints.year}})</div>
     <div id="B">{{dataPoints.title2}}</div>
     <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
-    </div>
+
+</div>
+</div>
 </div>
 </div>
