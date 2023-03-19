@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CardsComponent } from './cards/cards.component';
 import { HeaderComponent } from './header/header.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     CardsComponent,
     HeaderComponent,
+    CategoriesComponent,
 
   ],
   imports: [

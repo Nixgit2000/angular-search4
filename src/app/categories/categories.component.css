@@ -1,0 +1,83 @@
+[id*="button"] {
+    border-radius: 50px 50px 50px 50px;
+  
+}
+
+#button1 {
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+}
+#button1:hover {
+    background-color: rgb(40, 40, 40);
+}
+#button2 {
+ 
+    color: white;
+    position: absolute;
+    left: 600px;
+    top: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+}
+#button2:hover {
+    background-color: rgb(40, 40, 40);
+}
+#button3 {
+
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+}
+#button3:hover {
+    background-color: rgb(40, 40, 40);
+}
+#button4 {
+
+    color: white;
+    position: absolute;
+    left: 800px;
+    top: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+}
+#button4:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+#button5 {
+
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+}
+#button5:hover {
+    background-color: rgb(40, 40, 40);
+}
+#button6 {
+
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+}
+#button6:hover {
+    background-color: rgb(40, 40, 40);
+}

@@ -3,4 +3,6 @@
     padding: 0px;
     overflow-x: hidden;
     background-color: black;
+    caret-color: transparent;
+    user-select: none;
 }

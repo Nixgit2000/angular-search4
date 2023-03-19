@@ -1,7 +1,16 @@
 #header {
     height: 100px;
+   
 }
-
+p {
+    font-family: arial; 
+    font-size: 25px;
+    position: relative; 
+    left: 250px;
+    top: -70px;
+    color: rgb(186, 186, 157);
+    text-shadow: 1px 1px white;
+}
 #logo {
     background-color: black;
     height: 100px;

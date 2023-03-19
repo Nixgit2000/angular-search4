@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent {
-  featured = [
+  lotr = [
     {title: "The Lord of the Rings", title2: "The Fellowship of the Ring", year: "2001", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/5m0zjctrxy9HeSAtnGWNLlsnr8z.jpg", url: "https://www.youtube.com/watch?v=V75dMMIW2B4" , IMDB: "8.9", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Sean Bean, Dominic Monaghan, Billy Boyd",},
     {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2002", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/mw2Zhm2PguTRDc4jMwV6VpLhCOr.jpg", url: "https://www.youtube.com/watch?v=hYcw5ksV8YQ" , IMDB: "8.7", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
     {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2003", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/A0uT7ELKhgCB10qubggn1q86DUV.jpg", url: "https://www.youtube.com/watch?v=y2rYRu8UW8M" , IMDB: "9.0", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
