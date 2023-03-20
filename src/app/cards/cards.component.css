@@ -12,33 +12,47 @@ transition: .2s;
 #container1a {
 background-image: url("https://wallpaperaccess.com/full/815670.jpg");
 animation: slider1 300s infinite;
+background-size: cover;
 }
 
 #container1b {
 background-image: url("https://a-static.besthdwallpaper.com/fantastic-hobbit-house-design-wallpaper-1920x1280-92201_38.jpg");
 animation: slider1 100s infinite;
+background-size: cover;
 }
 
 #container1b1 {
 background-image: url("https://wallpaperaccess.com/full/515012.jpg");
 animation: slider1 200s infinite;
+background-size: cover;
 }
 
 #container1c {
 background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701900395.jpg");
 animation: slider2 100s infinite;
+background-size: cover;
 }
 
 #container1d {
 background-image: url("https://cdn.wallpapersafari.com/5/6/lR8L1W.jpg");
 animation: slider2 100s infinite;
+background-size: cover;
 }
 #container1e {
     background-image: url("https://pbs.twimg.com/media/EVLolo6U0AEDHTM.jpg:large");
     animation: slider2 100s infinite;
-    }
-
-
+    background-size: cover;    
+}
+#container1f {
+    background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/_DSC1838_wilderness.png?crop=0%2C175%2C3000%2C1650&wid=4000&hei=2200&scl=0.75");
+    animation: slider2 100s infinite;
+    background-size: cover;    
+}
+#container1g {
+    background-image: url("https://static-ssl.businessinsider.com/image/5d48335b100a244969125716-2400/ap17270265289682.jp2");
+    animation: slider2 100s infinite;
+    background-size: cover;    
+}
 @keyframes slider1 {
 0% {background-position: 10% 10%}
 50% {background-position: 80% 80%}

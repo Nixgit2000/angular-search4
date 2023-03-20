@@ -166,24 +166,30 @@ horror = [
   {title: "The Exorcist", title2: "V",year: "2005", url:  "https://www.youtube.com/watch?v=5HAZtloPE3I", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/3jIQOCB8ghrxvfWzSjzNv41LR9P.jpg",  IMDB: "5.2", actor: "Stellen Skarsgard, Clara Bellar", backgroundPos: "center center",  pic: "../assets/ASSETS/TE5.png"},
   
 ]
-
-criticallyAcclaimed = [
-  {title: "The Royal Tenenbaums", title2: "",year: "2001", url:  "https://www.youtube.com/watch?v=caMgokYWboU",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/1M8RDkgnqnxICysLxe7JNJLvFtJ.jpg",  IMDB: "7.6",  actor: "Owen Wilson, Gene Hackman, Ben Stiller, Luke Wilson, Gwyneth Paltrow, Bill Murray, Anjelica Huston, Danny Glover, Alec Baldwin", backgroundPos: "center center",  pic: "../assets/ASSETS/RT1.png"},
-  {title: "The Grand Buhapest Hotel", title2: "",year: "2014", url:  "https://www.youtube.com/watch?v=1Fg5iWmQjwk", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",  IMDB: "8.1",   actor: "Ralph Fiennes, Bill Murray, Tilda Swinton, Tony Revolori, Edward Norton, Adrien Brody, Owen Wilson, Willem Dafoe", backgroundPos: "center center",  pic: "../assets/ASSETS/RT2.png"},
+captainF = [
   {title: "Captain Fantastic", title2: "",year: "2016", url:  "https://www.youtube.com/watch?v=D1kH4OMIOMc", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/2sFME73GaD8UsUxPUKe60cPdLif.jpg",  IMDB: "7.8",   actor: "Viggo Mortensen, Samantha Isler, George MacKay, Annalise Basso", backgroundPos: "center center",  pic: "../assets/ASSETS/CF1.png"},
   {title: "Into the Wild", title2: "",year: "2007", url:  "https://www.youtube.com/watch?v=lwtZgBFKlzs",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/2MSGZEE6XZd2r4ODNziwAw7Hpw0.jpg",  IMDB: "8.1",  actor: "Emile Hirsch, Kristen Stewart, Vince Vaughn", backgroundPos: "center center",  pic: "../assets/ASSETS/CF2.png"},
-  {title: "Rudolph", title2: "the Red Nosed Reindeer",year: "1964", url:  "https://www.youtube.com/watch?v=amuEMNzIt6g", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/uIrgA3eCQ1dVSRAggTMjm0yO3ZD.jpg",  IMDB: "8.0",   actor: "Burl Ives, Billie Mae Richards", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR1.png"},
+ 
+]
+criticallyAcclaimed = [
+ {title: "The Royal Tenenbaums", title2: "",year: "2001", url:  "https://www.youtube.com/watch?v=caMgokYWboU",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/1M8RDkgnqnxICysLxe7JNJLvFtJ.jpg",  IMDB: "7.6",  actor: "Owen Wilson, Gene Hackman, Ben Stiller, Luke Wilson, Gwyneth Paltrow, Bill Murray, Anjelica Huston, Danny Glover, Alec Baldwin", backgroundPos: "center center",  pic: "../assets/ASSETS/RT1.png"},
+  {title: "The Grand Buhapest Hotel", title2: "",year: "2014", url:  "https://www.youtube.com/watch?v=1Fg5iWmQjwk", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",  IMDB: "8.1",   actor: "Ralph Fiennes, Bill Murray, Tilda Swinton, Tony Revolori, Edward Norton, Adrien Brody, Owen Wilson, Willem Dafoe", backgroundPos: "center center",  pic: "../assets/ASSETS/RT2.png"},
+ 
+
+ {title: "Rudolph", title2: "the Red Nosed Reindeer",year: "1964", url:  "https://www.youtube.com/watch?v=amuEMNzIt6g", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/uIrgA3eCQ1dVSRAggTMjm0yO3ZD.jpg",  IMDB: "8.0",   actor: "Burl Ives, Billie Mae Richards", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR1.png"},
   {title: "Scrooge: A Christmas Carol", title2: "",year: "2022", url:  "https://www.youtube.com/watch?v=k3SjIk3uphI", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/8tkZ1LMklRAuiJZ0IQLPsHPMid7.jpg",  IMDB: "6.2",   actor: "Alastais Sim, Kathleen Harrison", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR2.png"},
   {title: "Office Space", title2: "",year: "1999", url:  "https://www.youtube.com/watch?v=dMIrlP61Z9s",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/fiB7DY9mATGFOCTd4cgK6k2Wzr9.jpg",  IMDB: "7.6",  actor: "Mike Judge, Ron Livingston, Jennifer Aniston", backgroundPos: "center center",  pic: "../assets/ASSETS/OS1.png"},
   {title: "Idiocracy", title2: "",year: "2006", url:  "https://www.youtube.com/watch?v=6lai9QhBibk", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/q7sn0A3BkBxvzdwVFOGmJGE2vF8.jpg",  IMDB: "6.5",   actor: "Luke Wilson, Maya Rudolph, Dax Shepard, Terry Crews", backgroundPos: "center center",  pic: "../assets/ASSETS/OS2.png"},
-  {title: "Hot Fuzz", title2: "",year: "2007", url:  "https://www.youtube.com/watch?v=ayTnvVpj9t4",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",  IMDB: "7.8",  actor: "Simon Pegg, Nick Frost", backgroundPos: "center center",  pic: "../assets/ASSETS/SP1.png"},
-  {title: "The World's End", title2: "",year: "2013", url:  "https://www.youtube.com/watch?v=n__1Y-N5tQk",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/4gpo49xMquddB8CJjZjksLtcbqN.jpg",  IMDB: "6.9",  actor: "Simon Pegg, Nick Frost", backgroundPos: "center center",  pic: "../assets/ASSETS/SP3.png"},
-  {title: "Shaun of the Dead", title2: "",year: "2004", url:  "https://www.youtube.com/watch?v=cqDy3dXLBO8",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/pdNPgvCbZaAuxSNvcF98vBn5ySE.jpg",  IMDB: "7.9",  actor: "Simon Pegg, Nick Frost", backgroundPos: "center center",  pic: "../assets/ASSETS/SP4.png"},
-  
+
 
 
 ]
-
+simonP = [
+    {title: "Hot Fuzz", title2: "",year: "2007", url:  "https://www.youtube.com/watch?v=ayTnvVpj9t4",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",  IMDB: "7.8",  actor: "Simon Pegg, Nick Frost", backgroundPos: "center center",  pic: "../assets/ASSETS/SP1.png"},
+  {title: "The World's End", title2: "",year: "2013", url:  "https://www.youtube.com/watch?v=n__1Y-N5tQk",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/4gpo49xMquddB8CJjZjksLtcbqN.jpg",  IMDB: "6.9",  actor: "Simon Pegg, Nick Frost", backgroundPos: "center center",  pic: "../assets/ASSETS/SP3.png"},
+  {title: "Shaun of the Dead", title2: "",year: "2004", url:  "https://www.youtube.com/watch?v=cqDy3dXLBO8",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/pdNPgvCbZaAuxSNvcF98vBn5ySE.jpg",  IMDB: "7.9",  actor: "Simon Pegg, Nick Frost", backgroundPos: "center center",  pic: "../assets/ASSETS/SP4.png"},
+  
+]
 
   number = Math.round(Math.floor(Math.random() * 10))
 

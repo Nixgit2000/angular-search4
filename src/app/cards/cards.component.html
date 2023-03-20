@@ -15,7 +15,17 @@
 </div></div>
 
 
+<div id="container1b"><div id="container2">
+<div id="box1" *ngFor="let dataPoints of hobbit;">
+<a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+<div id="card-grid">    
+<div id="A">{{dataPoints.title}}</div>
+<div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+<div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
 
+</div>
+</div>
+</div></div>
 
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of data;">
@@ -30,17 +40,7 @@
 </div>
 
 
-<div id="container1b"><div id="container2">
-<div id="box1" *ngFor="let dataPoints of hobbit;">
-<a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
-<div id="card-grid">    
-<div id="A">{{dataPoints.title}}</div>
-<div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
-<div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
 
-</div>
-</div>
-</div></div>
 
 
 <div id="container2">
@@ -165,6 +165,19 @@
 </div>
 </div>
 
+<div id="container1f">
+
+    <div id="container2">
+    <div id="box1" *ngFor="let dataPoints of captainF;">
+    <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+    <div id="A">{{dataPoints.title}}</div>
+    <div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+    <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+    
+    </div>
+    </div>
+    </div></div>
 
 <div id="container2">
     <div id="box" *ngFor="let dataPoints of criticallyAcclaimed;">
@@ -177,4 +190,20 @@
     </div>
     </div>
     </div>
+
+
+    <div id="container1g">
+
+        <div id="container2">
+        <div id="box1" *ngFor="let dataPoints of simonP;">
+        <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+        <div id="card-grid">    
+        <div id="A">{{dataPoints.title}}</div>
+        <div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+        <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+        
+        </div>
+        </div>
+        </div></div>
+
 </div>
