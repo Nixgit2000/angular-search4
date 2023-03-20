@@ -177,7 +177,7 @@ criticallyAcclaimed = [
  
 
  {title: "Rudolph", title2: "the Red Nosed Reindeer",year: "1964", url:  "https://www.youtube.com/watch?v=amuEMNzIt6g", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/uIrgA3eCQ1dVSRAggTMjm0yO3ZD.jpg",  IMDB: "8.0",   actor: "Burl Ives, Billie Mae Richards", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR1.png"},
-  {title: "Scrooge: A Christmas Carol", title2: "",year: "2022", url:  "https://www.youtube.com/watch?v=k3SjIk3uphI", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/8tkZ1LMklRAuiJZ0IQLPsHPMid7.jpg",  IMDB: "6.2",   actor: "Alastais Sim, Kathleen Harrison", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR2.png"},
+  {title: "Scrooge", title2: "A Christmas Carol",year: "2022", url:  "https://www.youtube.com/watch?v=k3SjIk3uphI", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/8tkZ1LMklRAuiJZ0IQLPsHPMid7.jpg",  IMDB: "6.2",   actor: "Alastais Sim, Kathleen Harrison", backgroundPos: "center center",  pic: "../assets/ASSETS/RRNR2.png"},
   {title: "Office Space", title2: "",year: "1999", url:  "https://www.youtube.com/watch?v=dMIrlP61Z9s",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/fiB7DY9mATGFOCTd4cgK6k2Wzr9.jpg",  IMDB: "7.6",  actor: "Mike Judge, Ron Livingston, Jennifer Aniston", backgroundPos: "center center",  pic: "../assets/ASSETS/OS1.png"},
   {title: "Idiocracy", title2: "",year: "2006", url:  "https://www.youtube.com/watch?v=6lai9QhBibk", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/q7sn0A3BkBxvzdwVFOGmJGE2vF8.jpg",  IMDB: "6.5",   actor: "Luke Wilson, Maya Rudolph, Dax Shepard, Terry Crews", backgroundPos: "center center",  pic: "../assets/ASSETS/OS2.png"},
 

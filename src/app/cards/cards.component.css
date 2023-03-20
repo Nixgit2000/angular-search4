@@ -45,12 +45,12 @@ animation: slider2 100s infinite;
 }
 #container1f {
     background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/_DSC1838_wilderness.png?crop=0%2C175%2C3000%2C1650&wid=4000&hei=2200&scl=0.75");
-    animation: slider2 100s infinite;
+    animation: slider1 200s infinite;
 
 }
 #container1g {
     background-image: url("https://static-ssl.businessinsider.com/image/5d48335b100a244969125716-2400/ap17270265289682.jp2");
-    animation: slider2 400s infinite;
+    animation: slider2 100s infinite;
 
 }
 @keyframes slider1 {
