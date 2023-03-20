@@ -1,46 +1,62 @@
 #box1 {
-    margin: 40px 20px 40px 20px;
-    overflow: hidden;
-    transition: .2s;
- 
-    }
-    #box1:hover {
-    scale: 1.1;
-    transition: .2s;
-    }
-    
+margin: 40px 20px 40px 20px;
+overflow: hidden;
+transition: .2s;
+
+}
+#box1:hover {
+scale: 1.1;
+transition: .2s;
+}
+
 #container1a {
-    background-image: url("https://wallpaperaccess.com/full/815670.jpg");
-    animation: slider1 300s infinite;
-
+background-image: url("https://wallpaperaccess.com/full/815670.jpg");
+animation: slider1 300s infinite;
 }
+
 #container1b {
-    background-image: url("https://free4kwallpapers.com/uploads/originals/2015/09/26/empire-strikes-back.jpg");
-    animation: slider2 100s infinite;
-
+background-image: url("https://a-static.besthdwallpaper.com/fantastic-hobbit-house-design-wallpaper-1920x1280-92201_38.jpg");
+animation: slider1 100s infinite;
 }
-@keyframes slider1 {
 
+#container1b1 {
+background-image: url("https://wallpaperaccess.com/full/515012.jpg");
+animation: slider1 200s infinite;
+}
+
+#container1c {
+background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701900395.jpg");
+animation: slider2 100s infinite;
+}
+
+#container1d {
+background-image: url("https://cdn.wallpapersafari.com/5/6/lR8L1W.jpg");
+animation: slider2 100s infinite;
+}
+#container1e {
+    background-image: url("https://pbs.twimg.com/media/EVLolo6U0AEDHTM.jpg:large");
+    animation: slider2 100s infinite;
+    }
+
+
+@keyframes slider1 {
 0% {background-position: 10% 10%}
 50% {background-position: 80% 80%}
 100% {background-position: 10% 10%}
 }
 @keyframes slider2 {
-
-    0% {background-position: 0% 0%}
-    50% {background-position: 100% 100%}
-    100% {background-position: 0% 0%}
-    }
-    
+0% {background-position: 0% 0%}
+50% {background-position: 100% 100%}
+100% {background-position: 0% 0%}
+}
 
 #container2 {
-    background-color: transparent;
+background-color: transparent;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 overflow: hidden;
-
 }
 #box {
 border: 1px solid rgb(218, 218, 218);
@@ -63,7 +79,6 @@ transition: .2s;
 grid-row: 1 / span 7;
 grid-column: 1 / span 10;
 overflow: hidden;
-
 width: 220px;
 height: 330px;
 }
@@ -73,7 +88,6 @@ display: grid;
 width: 100%;
 height: 70px; 
 grid-template-rows: repeat(3, 1fr);
-
 }
 
 #A {
@@ -91,7 +105,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 grid-row: 2 / span 1;
-font-size: 13px;
+font-size: 11px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: rgb(160, 160, 160);
 font-weight: bold;
@@ -101,7 +115,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 grid-row: 3 / span 1;
-font-size: 13px;
+font-size: 11px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 color: rgb(179, 179, 179);
 }
