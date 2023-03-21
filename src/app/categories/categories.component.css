@@ -1,15 +1,30 @@
 [id*="button"] {
-    border-radius: 50px 50px 50px 50px;
-  
+    border-radius: 10px 10px 10px 10px;
+    height: 40px; 
+    width: 80px;
 }
+
+#button0 {
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+
+   
+    background-color: rgb(29, 29, 29);
+}
+#button0:hover {
+    background-color: rgb(40, 40, 40);
+}
+
 
 #button1 {
     color: white;
     position: absolute;
-    left: 500px;
+    left: 490px;
     top: 25px;
-    height: 50px;
-    width: 100px;
+
+
     background-color: rgb(29, 29, 29);
 }
 #button1:hover {
@@ -19,10 +34,9 @@
  
     color: white;
     position: absolute;
-    left: 600px;
+    left: 580px;
     top: 25px;
-    height: 50px;
-    width: 100px;
+
     background-color: rgb(29, 29, 29);
 }
 #button2:hover {
@@ -32,10 +46,10 @@
 
     color: white;
     position: absolute;
-    left: 700px;
+    left: 670px;
     top: 25px;
-    height: 50px;
-    width: 100px;
+
+
     background-color: rgb(29, 29, 29);
 }
 #button3:hover {
@@ -45,11 +59,10 @@
 
     color: white;
     position: absolute;
-    left: 800px;
+    left: 760px;
     top: 25px;
-    height: 50px;
-    width: 100px;
-    background-color: rgb(29, 29, 29);
+
+   background-color: rgb(29, 29, 29);
 }
 #button4:hover {
     background-color: rgb(40, 40, 40);
@@ -59,10 +72,10 @@
 
     color: white;
     position: absolute;
-    left: 900px;
+    left: 850px;
     top: 25px;
-    height: 50px;
-    width: 100px;
+
+
     background-color: rgb(29, 29, 29);
 }
 #button5:hover {
@@ -72,10 +85,10 @@
 
     color: white;
     position: absolute;
-    left: 1000px;
+    left: 940px;
     top: 25px;
-    height: 50px;
-    width: 100px;
+
+
     background-color: rgb(29, 29, 29);
 }
 #button6:hover {

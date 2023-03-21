@@ -8,10 +8,10 @@ import { DisplayService } from '../display.service';
 })
 export class CategoriesComponent {
 
-
-  constructor(private display: DisplayService) {}
-
-  fantasyClicked1() {
-    this.display.fantasyClicked1();
+  boolean = false
+  constructor(public display: DisplayService) {}
+  boolean1() {
+    return this.boolean = !this.display.booleanFN()
   }
+
 }

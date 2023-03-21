@@ -9,15 +9,13 @@ import { DisplayService } from '../display.service';
 })
 export class CardsComponent {
 
-  fantasyClicked: boolean;
-
-  constructor(private display: DisplayService) {
-    this.fantasyClicked = this.display.fantasyClicked;
-  }
-
+boolean:boolean
+constructor(public display: DisplayService) {
+  this.boolean = !this.display.boolean
+}
 
 
-  
+
   lotr = [
     {title: "The Lord of the Rings", title2: "The Fellowship of the Ring", year: "2001", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/5m0zjctrxy9HeSAtnGWNLlsnr8z.jpg", url: "https://www.youtube.com/watch?v=V75dMMIW2B4" , IMDB: "8.9", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Sean Bean, Dominic Monaghan, Billy Boyd",},
     {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2002", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/mw2Zhm2PguTRDc4jMwV6VpLhCOr.jpg", url: "https://www.youtube.com/watch?v=hYcw5ksV8YQ" ,IMDB: "8.7", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
@@ -52,10 +50,6 @@ hobbit = [
   {title: "Jurassic Park", title2: "III",year: "2001", url:  "https://www.youtube.com/watch?v=gjIaV6CU0wA",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/4vA26N1SjGBkmdvLDEXDfXarN5P.jpg",  IMDB: "5.9",    actor: "Sam Neill, William H. Macy, Téa Leoni, Alessandro Nivola, Trevor Morgan", backgroundPos: "center center",  pic: "../assets/ASSETS/JP3.png"},
   {title: "Jurassic World", title2: "I",year: "2015", url:  "https://www.youtube.com/watch?v=RFinNxS5KN4", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/ztGyzqXeprquXX6koXRfY7rOBpU.jpg",  IMDB: "6.9",   actor: "Chris Pratt, Bryce Dallas Howard, Vincent D'Onofrio, Ty Simpkins, Nick Robinson", backgroundPos: "center center",  pic: "../assets/ASSETS/JP4.png"},
   {title: "Jurassic World", title2: "II",year: "2018", url:  "https://www.youtube.com/watch?v=vn9mMeWcgoM", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/vAIm8L8n4MxB5yVQybi2YhsuPl.jpg",  IMDB: "6.1",   actor: "Chris Pratt, Bryce Dallas Howard, Rafe Spall, Justice Smith, Daniella Pineda", backgroundPos: "center center",  pic: "../assets/ASSETS/JP5.png"},
- 
-
-
-
   {title: "Star Wars", title2: "I: The Phantom Menace", year: "", url:  "https://www.youtube.com/watch?v=bD7bpG-zDJQ",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/njvYovI7hE19OjHsaWBjWNW2wpj.jpg",  IMDB: "",  actor: "Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd, Ian McDiarmid, Ahmed Best, Ray Park, Anthony Daniels, Kenny Baker, Terence Stamp", backgroundPos: "center center",  pic: "../assets/ASSETS/SW1.png"},
   {title: "Star Wars", title2: "II: Attack of the Clones",year: "", url:  "https://www.youtube.com/watch?v=gYbW1F_c9eM",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/xmE8UTJXumiy3wKn4KLbHqsbYdj.jpg",  IMDB: "", actor: "Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee, Samuel L. Jackson, Ian McDiarmid, Anthony Daniels, Kenny Baker, Frank Oz, Temuera Morrison", backgroundPos: "0% 60%",  pic: "../assets/ASSETS/SW2.png"},
   {title: "Star Wars", title2: "III: Revenge of the Sith",year: "", url:  "https://www.youtube.com/watch?v=5UnjrG_N8hU",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/9IhnxfbRH2kybbWrb4Ac8yvN2jP.jpg",  IMDB: "", actor: "Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid, Samuel L. Jackson, Anthony Daniels, Kenny Baker, Frank Oz, Jimmy Smits, Christopher Lee", backgroundPos: "40% 60%",  pic: "../assets/ASSETS/SW3.png"},
