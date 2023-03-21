@@ -8,10 +8,22 @@ import { DisplayService } from '../display.service';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent {
+allMovies:boolean
+  fantasy:boolean
+  sciFi: boolean
+  action: boolean
+  comicBook: boolean
+  horror: boolean
+  misc: boolean
 
-boolean:boolean
 constructor(public display: DisplayService) {
-  this.boolean = !this.display.boolean
+  this.allMovies = !this.display.allMovies
+  this.fantasy = !this.display.fantasy
+  this.sciFi = !this.display.sciFi
+  this.action = !this.display.action 
+  this.comicBook = !this.display.comicBook
+  this.horror = !this.display.horror
+  this.misc = !this.display.misc
 }
 
 
@@ -44,21 +56,21 @@ hobbit = [
 
  ]
   
- sciFi= [ 
+ sciFi1= [ 
   {title: "Jurassic Park", title2: "I",year: "1993", url:  "https://www.youtube.com/watch?v=_jKEqDKpJLw",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/aTlnLDD14CElItz0x6N3RZ2U2kn.jpg",  IMDB: "8.2",    actor: "Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough, Martin Ferrero", backgroundPos: "center center",  pic: "../assets/ASSETS/JP1.png"},
   {title: "Jurassic Park", title2: "II",year: "1997", url:  "https://www.youtube.com/watch?v=vtfwgaHD5_w", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/7r8adhMO3SyODPHE2lv8kDTX6NK.jpg",  IMDB: "6.5",   actor: "Jeff Goldblum, Julianne Moore, Pete Postlethwaite, Vince Vaughn, Vanessa Lee Chester", backgroundPos: "center center",  pic: "../assets/ASSETS/JP2.png"},
   {title: "Jurassic Park", title2: "III",year: "2001", url:  "https://www.youtube.com/watch?v=gjIaV6CU0wA",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/4vA26N1SjGBkmdvLDEXDfXarN5P.jpg",  IMDB: "5.9",    actor: "Sam Neill, William H. Macy, Téa Leoni, Alessandro Nivola, Trevor Morgan", backgroundPos: "center center",  pic: "../assets/ASSETS/JP3.png"},
   {title: "Jurassic World", title2: "I",year: "2015", url:  "https://www.youtube.com/watch?v=RFinNxS5KN4", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/ztGyzqXeprquXX6koXRfY7rOBpU.jpg",  IMDB: "6.9",   actor: "Chris Pratt, Bryce Dallas Howard, Vincent D'Onofrio, Ty Simpkins, Nick Robinson", backgroundPos: "center center",  pic: "../assets/ASSETS/JP4.png"},
   {title: "Jurassic World", title2: "II",year: "2018", url:  "https://www.youtube.com/watch?v=vn9mMeWcgoM", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/vAIm8L8n4MxB5yVQybi2YhsuPl.jpg",  IMDB: "6.1",   actor: "Chris Pratt, Bryce Dallas Howard, Rafe Spall, Justice Smith, Daniella Pineda", backgroundPos: "center center",  pic: "../assets/ASSETS/JP5.png"},
-  {title: "Star Wars", title2: "I: The Phantom Menace", year: "", url:  "https://www.youtube.com/watch?v=bD7bpG-zDJQ",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/njvYovI7hE19OjHsaWBjWNW2wpj.jpg",  IMDB: "",  actor: "Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd, Ian McDiarmid, Ahmed Best, Ray Park, Anthony Daniels, Kenny Baker, Terence Stamp", backgroundPos: "center center",  pic: "../assets/ASSETS/SW1.png"},
-  {title: "Star Wars", title2: "II: Attack of the Clones",year: "", url:  "https://www.youtube.com/watch?v=gYbW1F_c9eM",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/xmE8UTJXumiy3wKn4KLbHqsbYdj.jpg",  IMDB: "", actor: "Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee, Samuel L. Jackson, Ian McDiarmid, Anthony Daniels, Kenny Baker, Frank Oz, Temuera Morrison", backgroundPos: "0% 60%",  pic: "../assets/ASSETS/SW2.png"},
-  {title: "Star Wars", title2: "III: Revenge of the Sith",year: "", url:  "https://www.youtube.com/watch?v=5UnjrG_N8hU",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/9IhnxfbRH2kybbWrb4Ac8yvN2jP.jpg",  IMDB: "", actor: "Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid, Samuel L. Jackson, Anthony Daniels, Kenny Baker, Frank Oz, Jimmy Smits, Christopher Lee", backgroundPos: "40% 60%",  pic: "../assets/ASSETS/SW3.png"},
-  {title: "Star Wars", title2: "IV: A New Hope", font: "FB",year: "", url:  "https://www.youtube.com/watch?v=55jkOtsEZZg",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/4eBxpbab6wjtcHiR4ATf3cQ8tu4.jpg",  IMDB: "", actor: "Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, Anthony Daniels, Kenny Baker, Peter Mayhew, David Prowse, Phil Brown", backgroundPos: "center center",  pic: "../assets/ASSETS/SW4.png"},
-  {title: "Star Wars", title2: "V: The Empire Strikes Back",year: "", url:  "https://www.youtube.com/watch?v=urhsYepFqs0&vl=en",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/uTUi68RjzMpzATjI5l1kszVQkYx.jpg",  IMDB: "", actor: "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, Peter Mayhew, Frank Oz, Jeremy Bulloch, Julian Glover, John Ratzenberger", backgroundPos: "0% 60%",  pic: "../assets/ASSETS/SW5.png"},
-  {title: "Star Wars", title2: "VI: Return of the Jedi",year: "", url:  "https://www.youtube.com/watch?v=Z68iAdS68CI",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/nsV6e2Y8rYRNxozFDWM5bADnKSn.jpg",  IMDB: "",  actor: "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Ian McDiarmid, Anthony Daniels, Kenny Baker, Peter Mayhew, Warwick Davis, Frank Oz", backgroundPos: "40% 60%",  pic: "../assets/ASSETS/SW6.png"},
-  {title: "Star Wars", title2: "VII: The Force Awakens",year: "", url:  "https://www.youtube.com/watch?v=sGbxmsDFVnE",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/gzFoqLYdFClzfXBsxUTjfFwMvXe.jpg",  IMDB: "", actor: "Daisy Ridley, John Boyega, Adam Driver, Oscar Isaac, Harrison Ford, Carrie Fisher, Peter Mayhew, Anthony Daniels, Domhnall Gleeson, Gwendoline Christie", backgroundPos: "center center",  pic: "../assets/ASSETS/SW7.png"},
-  {title: "Star Wars", title2: "VIII: The Last Jedi",year: "", url:  "https://www.youtube.com/watch?v=Q0CbN8sfihY",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/aOfzX4s5r7wnItzKU62biCuJ5a5.jpg",  IMDB: "",  actor: "Daisy Ridley, Adam Driver, John Boyega, Mark Hamill, Carrie Fisher, Oscar Isaac, Laura Dern, Kelly Marie Tran, Domhnall Gleeson, Benicio Del Toro", backgroundPos: "0% 60%",  pic: "../assets/ASSETS/SW8.png"},
-  {title: "Star Wars", title2: "IX: The Rise of Skywalker",year: "", url:  "https://www.youtube.com/watch?v=8Qn_spdM5Zg",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/rdpmS6gFS8rfho7XxmZB6PAcaQM.jpg",  IMDB: "", actor: "Daisy Ridley, Adam Driver, John Boyega, Oscar Isaac, Ian McDiarmid, Carrie Fisher, Anthony Daniels, Domhnall Gleeson, Keri Russell, Joonas Suotamo", backgroundPos: "40% 60%",  pic: "../assets/ASSETS/SW9.png"},
+  {title: "Star Wars", title2: "I: The Phantom Menace", year: "1999", url:  "https://www.youtube.com/watch?v=bD7bpG-zDJQ",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/njvYovI7hE19OjHsaWBjWNW2wpj.jpg",  IMDB: "6.5",  actor: "Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd, Ian McDiarmid, Ahmed Best, Ray Park, Anthony Daniels, Kenny Baker, Terence Stamp", backgroundPos: "center center",  pic: "../assets/ASSETS/SW1.png"},
+  {title: "Star Wars", title2: "II: Attack of the Clones",year: "2002", url:  "https://www.youtube.com/watch?v=gYbW1F_c9eM",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/xmE8UTJXumiy3wKn4KLbHqsbYdj.jpg",  IMDB: "6.6", actor: "Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee, Samuel L. Jackson, Ian McDiarmid, Anthony Daniels, Kenny Baker, Frank Oz, Temuera Morrison", backgroundPos: "0% 60%",  pic: "../assets/ASSETS/SW2.png"},
+  {title: "Star Wars", title2: "III: Revenge of the Sith",year: "2005", url:  "https://www.youtube.com/watch?v=5UnjrG_N8hU",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/9IhnxfbRH2kybbWrb4Ac8yvN2jP.jpg",  IMDB: "7.6", actor: "Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid, Samuel L. Jackson, Anthony Daniels, Kenny Baker, Frank Oz, Jimmy Smits, Christopher Lee", backgroundPos: "40% 60%",  pic: "../assets/ASSETS/SW3.png"},
+  {title: "Star Wars", title2: "IV: A New Hope", font: "FB",year: "1977", url:  "https://www.youtube.com/watch?v=55jkOtsEZZg",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/4eBxpbab6wjtcHiR4ATf3cQ8tu4.jpg",  IMDB: "8.6", actor: "Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, Anthony Daniels, Kenny Baker, Peter Mayhew, David Prowse, Phil Brown", backgroundPos: "center center",  pic: "../assets/ASSETS/SW4.png"},
+  {title: "Star Wars", title2: "V: The Empire Strikes Back",year: "1980", url:  "https://www.youtube.com/watch?v=urhsYepFqs0&vl=en",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/uTUi68RjzMpzATjI5l1kszVQkYx.jpg",  IMDB: "8.7", actor: "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, Peter Mayhew, Frank Oz, Jeremy Bulloch, Julian Glover, John Ratzenberger", backgroundPos: "0% 60%",  pic: "../assets/ASSETS/SW5.png"},
+  {title: "Star Wars", title2: "VI: Return of the Jedi",year: "1983", url:  "https://www.youtube.com/watch?v=Z68iAdS68CI",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/nsV6e2Y8rYRNxozFDWM5bADnKSn.jpg",  IMDB: "8.3",  actor: "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Ian McDiarmid, Anthony Daniels, Kenny Baker, Peter Mayhew, Warwick Davis, Frank Oz", backgroundPos: "40% 60%",  pic: "../assets/ASSETS/SW6.png"},
+  {title: "Star Wars", title2: "VII: The Force Awakens",year: "2015", url:  "https://www.youtube.com/watch?v=sGbxmsDFVnE",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/gzFoqLYdFClzfXBsxUTjfFwMvXe.jpg",  IMDB: "7.8", actor: "Daisy Ridley, John Boyega, Adam Driver, Oscar Isaac, Harrison Ford, Carrie Fisher, Peter Mayhew, Anthony Daniels, Domhnall Gleeson, Gwendoline Christie", backgroundPos: "center center",  pic: "../assets/ASSETS/SW7.png"},
+  {title: "Star Wars", title2: "VIII: The Last Jedi",year: "2017", url:  "https://www.youtube.com/watch?v=Q0CbN8sfihY",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/aOfzX4s5r7wnItzKU62biCuJ5a5.jpg",  IMDB: "6.9",  actor: "Daisy Ridley, Adam Driver, John Boyega, Mark Hamill, Carrie Fisher, Oscar Isaac, Laura Dern, Kelly Marie Tran, Domhnall Gleeson, Benicio Del Toro", backgroundPos: "0% 60%",  pic: "../assets/ASSETS/SW8.png"},
+  {title: "Star Wars", title2: "IX: The Rise of Skywalker",year: "2019", url:  "https://www.youtube.com/watch?v=8Qn_spdM5Zg",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/rdpmS6gFS8rfho7XxmZB6PAcaQM.jpg",  IMDB: "6.5", actor: "Daisy Ridley, Adam Driver, John Boyega, Oscar Isaac, Ian McDiarmid, Carrie Fisher, Anthony Daniels, Domhnall Gleeson, Keri Russell, Joonas Suotamo", backgroundPos: "40% 60%",  pic: "../assets/ASSETS/SW9.png"},
  
  ]
 
@@ -99,7 +111,7 @@ theMummy = [
   
 
 ]
-action= [  
+action1= [  
   {title: "Mission Impossible", title2: "",year: "1996", url:  "https://www.youtube.com/watch?v=Ohws8y572KE", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/O6tFDhra5dY2DNKklDk81k9FdJ.jpg",  IMDB: "7.1",  actor: "Tom Cruise, Jon Voight, Emmanuelle Béart, Jean Reno, Ving Rhames", backgroundPos: "center center",  pic: "../assets/ASSETS/MI1.png"},
   {title: "Mission Impossible", title2: "II",year: "2000", url:  "https://www.youtube.com/watch?v=vIpqpRuGrq4",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/dYDMZOu0U2ezUNnnilQMv2WifJo.jpg",  IMDB: "6.1",  actor: "Tom Cruise, Dougray Scott, Thandie Newton, Ving Rhames, Richard Roxburgh", backgroundPos: "center center",  pic: "../assets/ASSETS/MI2.png"},
   {title: "Mission Impossible", title2: "III",year: "2006", url:  "https://www.youtube.com/watch?v=KH_lyU4vJn8",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/5Hegqm3JnqbGxb7kZy4t8vfQmwD.jpg",  IMDB: "6.9",  actor: "Tom Cruise, Philip Seymour Hoffman, Ving Rhames, Billy Crudup, Michelle Monaghan", backgroundPos: "center center",  pic: "../assets/ASSETS/MI3.png"},
@@ -138,7 +150,7 @@ avengers = [
 {title: "The Avengers", title2: "Endgame",year: "2019", url:  "https://www.youtube.com/watch?v=TcMBFSGVi1c",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/or06FN3Dka5tukK1e9sl16pB3iy.jpg",  IMDB: "8.4",  actor: "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan", backgroundPos: "center center",  pic: "../assets/ASSETS/TA4.png"},
 ]
 
-comicBook = [
+comicBook1 = [
 {title: "Spider-Man", title2: "I",year: "2002", url:  "https://www.youtube.com/watch?v=_yhFofFZGcc",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/rweIrveL43TaxUN0akQEaAXL6x0.jpg",  IMDB: "7.4", actor: "Tobey Maguire, Kirsten Dunst, Willem Dafoe, James Franco, J.K. Simmons", backgroundPos: "center center",  pic: "../assets/ASSETS/SM1.png"},
 {title: "Spider-Man", title2: "II",year: "2004", url:  "https://www.youtube.com/watch?v=1s9Yln0YwCw", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/kUSGnFTtl0uMu5PJSKDX7bIB4sl.jpg",  IMDB: "7.4", actor: "Tobey Maguire, Kirsten Dunst, Alfred Molina, James Franco, J.K. Simmons", backgroundPos: "center center",  pic: "../assets/ASSETS/SM2.png"},
 {title: "Spider-Man", title2: "III",year: "2007", url:  "https://www.youtube.com/watch?v=e5wUilOeOmg", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/dvPB5LvRZh5gcPpGBOVgT0R3yUB.jpg",  IMDB: "6.3", actor: "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church, Topher Grace", backgroundPos: "center center",  pic: "../assets/ASSETS/SM3.png"},
@@ -152,7 +164,7 @@ comicBook = [
 ]
 
 
-horror = [
+horror1 = [
   {title: "The Conjuring", title2: "",year: "2013", url:  "https://www.youtube.com/watch?v=k10ETZ41q5o", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/AhZUF20uDowZhzkL6mGIbYBZolK.jpg",  IMDB: "7.5", actor: "Vera Farmiga, Patrick Wilson", backgroundPos: "center center",  pic: "../assets/ASSETS/C1.png"},
   {title: "The Conjuring", title2: "2",year: "2016", url:  "https://www.youtube.com/watch?v=VFsmuRPClr4", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/1r8Op3YxGI0CSUg4ZH1Nc1PUj0T.jpg",  IMDB: "7.3", actor: "Vera Farmiga, Patrick Wilson", backgroundPos: "center center",  pic: "../assets/ASSETS/C2.png"},  
   {title: "The Conjuring", title2: "3",year: "2021", url:  "https://www.youtube.com/watch?v=h9Q4zZS2v1k",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/lkjOx3VOSi9PBll6UY6OUyQFZYe.jpg",  IMDB: "6.3",  actor: "Vera Farmiga, Patrick Wilson", backgroundPos: "center center",  pic: "../assets/ASSETS/C3.png"},
