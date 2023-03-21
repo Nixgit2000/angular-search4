@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -7,16 +8,20 @@ import { HeaderComponent } from './header/header.component';
 import { CategoriesComponent } from './categories/categories.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     CardsComponent,
     HeaderComponent,
     CategoriesComponent,
+   
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,6 +8,8 @@ transition: .2s;
 scale: 1.1;
 transition: .2s;
 }
+
+
 @media (max-width: 1921px) {
 #container1a {
 background-image: url("https://wallpaperaccess.com/full/815670.jpg");
@@ -29,7 +31,7 @@ animation: slider1 200s infinite;
 
 #container1c {
 background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701900395.jpg");
-animation: slider2 100s infinite;
+animation: slider3 100s infinite;
 
 }
 
@@ -50,7 +52,7 @@ animation: slider2 100s infinite;
 }
 #container1g {
     background-image: url("https://static-ssl.businessinsider.com/image/5d48335b100a244969125716-2400/ap17270265289682.jp2");
-    animation: slider2 100s infinite;
+    animation: slider3 100s infinite;
 
 }
 @keyframes slider1 {
@@ -63,7 +65,11 @@ animation: slider2 100s infinite;
 50% {background-position: 100% 100%}
 100% {background-position: 0% 0%}
 }
-
+@keyframes slider3 {
+    0% {background-position: 100% 100%}
+    50% {background-position: 0% 0%}
+    100% {background-position: 100% 100%}
+    }
 #container2 {
 background-color: transparent;
 display: flex;

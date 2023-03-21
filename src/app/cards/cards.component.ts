@@ -1,4 +1,6 @@
+
 import { Component } from '@angular/core';
+import { DisplayService } from '../display.service';
 
 @Component({
   selector: 'app-cards',
@@ -6,10 +8,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent {
+
+  fantasyClicked: boolean;
+
+  constructor(private display: DisplayService) {
+    this.fantasyClicked = this.display.fantasyClicked;
+  }
+
+
+
+  
   lotr = [
     {title: "The Lord of the Rings", title2: "The Fellowship of the Ring", year: "2001", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/5m0zjctrxy9HeSAtnGWNLlsnr8z.jpg", url: "https://www.youtube.com/watch?v=V75dMMIW2B4" , IMDB: "8.9", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Sean Bean, Dominic Monaghan, Billy Boyd",},
-    {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2002", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/mw2Zhm2PguTRDc4jMwV6VpLhCOr.jpg", url: "https://www.youtube.com/watch?v=hYcw5ksV8YQ" , IMDB: "8.7", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
-    {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2003", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/A0uT7ELKhgCB10qubggn1q86DUV.jpg", url: "https://www.youtube.com/watch?v=y2rYRu8UW8M" , IMDB: "9.0", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
+    {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2002", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/mw2Zhm2PguTRDc4jMwV6VpLhCOr.jpg", url: "https://www.youtube.com/watch?v=hYcw5ksV8YQ" ,IMDB: "8.7", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
+    {title: "The Lord of the Rings", title2: "The Fellowship of the Ring",  year: "2003", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/A0uT7ELKhgCB10qubggn1q86DUV.jpg", url: "https://www.youtube.com/watch?v=y2rYRu8UW8M" ,IMDB: "9.0", actor: "Elijah Wood, Viggo Mortensen, Sean Astin, Orlando Bloom, Ian McKellen, Dominic Monaghan, Billy Boyd",},
   ]  
 data = [
  {title: "Harry Potter", title2: "and the Philosopher's Stone",year: "2001",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg", url:"https://www.youtube.com/watch?v=VyHV0BRtdxo",IMDB: "7.6",  actor: "Daniel Radcliffe, Emma Watson, Rupert Grint, Alan Rickman, Tom Felton, Maggie Smith, Robbie Coltrane, Harry Melling"},

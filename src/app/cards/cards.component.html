@@ -1,7 +1,9 @@
+<p style="color: turquoise;display: fixed; height: 100px;font-size: larger; top: -100px; z-index: 1000">{{fantasyClicked}}</p>
+
 <div style="display: block; padding-bottom: 10px;">
 
 
-
+<div [hidden]="fantasyClicked">
 <div id="container1a"><div id="container2">
 <div id="box1" *ngFor="let dataPoints of lotr;">
 <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
@@ -10,9 +12,7 @@
 <div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
 <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
 
-</div>
-</div>
-</div></div>
+</div></div></div></div></div>
 
 
 
