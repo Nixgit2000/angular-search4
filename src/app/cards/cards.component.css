@@ -56,6 +56,18 @@ background-size: cover;
     animation: slider2 100s infinite;
 
 }
+
+#containerHorror1 {
+    background-image: url("http://wallpaperset.com/w/full/e/e/5/106861.jpg");
+    animation: slider2 100s infinite;
+    background-size: cover;
+}
+#containerHorror2 {
+    background-image: url("https://wallpapercave.com/wp/wp1901240.jpg");
+    animation: slider2 100s infinite;
+    background-size: cover;
+}
+
 @keyframes slider1 {
     0% {background-position: 10% 10%}
     50% {background-position: 80% 80%}
@@ -186,6 +198,17 @@ color: rgb(179, 179, 179);
         background-image: url("https://static-ssl.businessinsider.com/image/5d48335b100a244969125716-2400/ap17270265289682.jp2");
         animation: slider2 100s infinite;
         background-size: cover;    
+    }
+
+    #containerHorror1 {
+        background-image: url("http://wallpaperset.com/w/full/e/e/5/106861.jpg");
+        animation: slider2 100s infinite;
+        background-size: cover;
+    }
+    #containerHorror2 {
+        background-image: url("https://wallpapercave.com/wp/wp1901240.jpg");
+        animation: slider2 100s infinite;
+        background-size: cover;
     }
     @keyframes slider1 {
     0% {background-position: 10% 10%}

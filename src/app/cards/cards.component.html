@@ -125,6 +125,20 @@
 
 <div id="divider" *ngIf=display.action>
 
+    <div id="container1d">
+
+        <div id="container2">
+        <div id="box1" *ngFor="let dataPoints of johnWick;">
+        <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+        <div id="card-grid">    
+        <div id="A">{{dataPoints.title}}</div>
+        <div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+        <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+        
+        </div>
+        </div>
+        </div></div>
+
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of action1;">
 <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
@@ -136,7 +150,23 @@
 </div>
 </div>
 </div>
+
+<div id="container2">
+    <div id="box" *ngFor="let dataPoints of action2;">
+    <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+    <div id="A">{{dataPoints.title}}</div>
+    <div id="B">{{dataPoints.title2}} ({{dataPoints.year}})</div>
+    <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+    
+    </div>
+    </div>
+    </div>
+
+
 </div>
+
+
 
 
 <div id="divider" *ngIf=display.comicBook>
@@ -182,10 +212,38 @@
 </div>
 </div>
 </div></div>
+
+<div id="container2">
+    <div id="box" *ngFor="let dataPoints of comicBook2;">
+    <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+    <div id="A">{{dataPoints.title}}</div>
+    <div id="B">{{dataPoints.title2}} ({{dataPoints.year}})</div>
+    <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+    
+    </div>
+    </div>
+    </div>
+
+
 </div>
 
 
 <div id="divider" *ngIf=display.horror>
+
+    <div id="containerHorror1">
+
+        <div id="container2">
+        <div id="box1" *ngFor="let dataPoints of Conjuring;">
+        <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+        <div id="card-grid">    
+        <div id="A">{{dataPoints.title}}</div>
+        <div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+        <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+        
+        </div>
+        </div>
+        </div></div>
 
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of horror1;">
@@ -198,6 +256,33 @@
 </div>
 </div>
 </div>
+
+<div id="containerHorror2">
+
+    <div id="container2">
+    <div id="box1" *ngFor="let dataPoints of theShining;">
+    <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+    <div id="A">{{dataPoints.title}}</div>
+    <div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+    <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+    
+    </div>
+    </div>
+    </div></div>
+
+<div id="container2">
+    <div id="box" *ngFor="let dataPoints of horror2;">
+    <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+    <div id="A">{{dataPoints.title}}</div>
+    <div id="B">{{dataPoints.title2}} ({{dataPoints.year}})</div>
+    <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+    
+    </div>
+    </div>
+    </div>
+
 </div>
 
 

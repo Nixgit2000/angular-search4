@@ -107,9 +107,13 @@ action1= [
   {title: "Mission Impossible", title2: "Ghost Protocol",year: "2011", url:  "https://www.youtube.com/watch?v=EDGYVFZxsXQ",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/pxjO6xsnKzXyT8iweOcJuuRpbbb.jpg",  IMDB: "7.4",  actor: "Tom Cruise, Jeremy Renner, Simon Pegg, Paula Patton, Michael Nyqvist", backgroundPos: "center center",  pic: "../assets/ASSETS/MI4.png"},
   {title: "Mission Impossible", title2: "Rogue Nation",year: "2015", url:  "https://www.youtube.com/watch?v=EIsauUFIguE",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/fsuliS9FpkyvThQU1bJM1tqo9ZE.jpg",  IMDB: "7.4",  actor: "Tom Cruise, Rebecca Ferguson, Jeremy Renner, Simon Pegg, Ving Rhames", backgroundPos: "center center",  pic: "../assets/ASSETS/MI5.png"},
   {title: "Mission Impossible", title2: "Fallout",year: "2018", url:  "https://www.youtube.com/watch?v=wb49-oV0F78", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/bOxxpggWq2bpmvLv7PY3f70s5K.jpg",  IMDB: "7.7", actor: "Tom Cruise, Henry Cavill, Ving Rhames, Simon Pegg, Rebecca Ferguson", backgroundPos: "center center",  pic: "../assets/ASSETS/MI6.png"},
+]
+ johnWick = [
   {title: "John Wick", title2: "I",year: "2014", url:  "https://www.youtube.com/watch?v=C0BMx-qxsP4", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/zbSDyXmrtKvRWBtoUR4KpBvUGcQ.jpg",  IMDB: "7.4", actor: "Keanu Reeves, Michael Nyqvist, Alfie Allen, Willem Dafoe, Adrianne Palicki", backgroundPos: "center center",  pic: "../assets/ASSETS/JW1.png"},
   {title: "John Wick", title2: "II",year: "2017", url:  "https://www.youtube.com/watch?v=XGk2EfbD_Ps", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/yscP1PyFDzOMPdVP4V4BxWgF2xg.jpg",  IMDB: "7.4", actor: "Keanu Reeves, Common, Laurence Fishburne, Riccardo Scamarcio, Ruby Rose", backgroundPos: "center center",  pic: "../assets/ASSETS/JW2.png"},
   {title: "John Wick", title2: "III",year: "2019", url:  "https://www.youtube.com/watch?v=M7XM597XO94",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/lUKXNV8ISvWQRpd0yILJw8uDNdI.jpg",  IMDB: "7.4",  actor: "Keanu Reeves, Halle Berry, Ian McShane, Laurence Fishburne, Mark Dacascos", backgroundPos: "center center",  pic: "../assets/ASSETS/JW3.png"},
+ ]
+ action2 = [
   {title: "The Bourne Identity", title2: "",year: "2002", url:  "https://www.youtube.com/watch?v=FpKaB5dvQ4g",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",  IMDB: "7.9",  actor: "Matt Damon, Franka Potente, Chris Cooper, Clive Owen, Brian Cox", backgroundPos: "center center",  pic: "../assets/ASSETS/JB1.png"},
   {title: "The Bourne Supremacy", title2: "",year: "2004", url:  "https://www.youtube.com/watch?v=Y-HqyyfBbSo",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/jupG9sFT64YwM8PSkwkUD2wHcYD.jpg",  IMDB: "7.7",  actor: "Matt Damon, Franka Potente, Brian Cox, Julia Stiles, Karl Urban", backgroundPos: "center center",  pic: "../assets/ASSETS/JB2.png"},
   {title: "The Bourne Ultimatum", title2: "",year: "2007", url:  "https://www.youtube.com/watch?v=ZT2ZxjUjSo0",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/d4DuphCHCjVUyffExnK5nLbn39K.jpg",  IMDB: "8.0",  actor: "Matt Damon, Julia Stiles, David Strathairn, Scott Glenn, Paddy Considine", backgroundPos: "center center",  pic: "../assets/ASSETS/JB3.png"},
@@ -145,24 +149,35 @@ comicBook1 = [
 {title: "Spider-Man", title2: "III",year: "2007", url:  "https://www.youtube.com/watch?v=e5wUilOeOmg", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/dvPB5LvRZh5gcPpGBOVgT0R3yUB.jpg",  IMDB: "6.3", actor: "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church, Topher Grace", backgroundPos: "center center",  pic: "../assets/ASSETS/SM3.png"},
 {title: "The Amazing Spider-Man", title2: "",year: "2012", url:  "https://www.youtube.com/watch?v=upwf8RsyNqQ", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/1LGrTajwKHfIaUJ0CTnITPZqElr.jpg",  IMDB: "6.9", actor: "Andrew Garfield, Emma Stone, Rhys Ifans, Denis Leary, Martin Sheen", backgroundPos: "center center",  pic: "../assets/ASSETS/TAS1.png"},
 {title: "The Amazing Spider-Man", title2: "2",year: "2014", url:  "https://www.youtube.com/watch?v=DlM2CWNTQ84", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/rJZclvaXUWI1yPCtSvmhzOqwFRY.jpg",  IMDB: "6.6", actor: "Andrew Garfield, Emma Stone, Jamie Foxx, Dane DeHaan, Sally Field", backgroundPos: "center center",  pic: "../assets/ASSETS/TAS2.png"},
+]
+comicBook2 = [
+
+{title: "Kick-Ass", title2: "I",year: "2010", url:  "https://www.youtube.com/watch?v=2rpXHqnGDXo", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzsuzcbiyoSFErQxEvGkvZpXcte.jpg",  IMDB: "7.6", actor: "Chloe Grace Moretz, Aaron Taylor-Johnson, Nicolas Cage, Christopher Mintz-Plasse", backgroundPos: "center center",  pic: "../assets/ASSETS/KA1.png"},
+{title: "Kick-Ass", title2: "II",year: "2013", url:  "https://www.youtube.com/watch?v=Td921lYSBIA", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/1go2A3gdQjaMuHWquybgoJlQRcX.jpg",  IMDB: "6.5", actor: "Chloe Grace Moretz, Aaron Taylor-Johnson, Christopher Mintz-Plasse, Jim Carrey", backgroundPos: "center center",  pic: "../assets/ASSETS/KA2.png"},
 {title: "X-Men", title2: "I",year: "2000", url:  "https://www.youtube.com/watch?v=VNxwlx6etXI", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/dhEMlpcGD0b0AxxDvuSMf5sQObR.jpg",  IMDB: "7.3", actor: "Hugh Jackman, Patrick Stewart, Ian McKellen, Famke Janssen, James Marsden", backgroundPos: "center center",  pic: "../assets/ASSETS/XM1.png"},
 {title: "X-Men", title2: "II",year: "2003", url:  "https://www.youtube.com/watch?v=KjzPi5hfv9c", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/nspLNX9ADUu4t0viZs0gNHK048g.jpg",  IMDB: "7.4", actor: "Hugh Jackman, Patrick Stewart, Ian McKellen, Famke Janssen, Halle Berry", backgroundPos: "center center",  pic: "../assets/ASSETS/XM2.png"},
 {title: "X-Men", title2: "III",year: "2006", url:  "https://www.youtube.com/watch?v=ZQ0v5dXbw7M", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/rlPn8yQ4aju1GVrSzUgYjZrA5AI.jpg",  IMDB: "6.6", actor: "Hugh Jackman, Patrick Stewart, Ian McKellen, Halle Berry, Famke Janssen", backgroundPos: "center center",  pic: "../assets/ASSETS/XM3.png"},
-{title: "Kick-Ass", title2: "I",year: "2010", url:  "https://www.youtube.com/watch?v=2rpXHqnGDXo", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzsuzcbiyoSFErQxEvGkvZpXcte.jpg",  IMDB: "7.6", actor: "Chloe Grace Moretz, Aaron Taylor-Johnson, Nicolas Cage, Christopher Mintz-Plasse", backgroundPos: "center center",  pic: "../assets/ASSETS/KA1.png"},
-{title: "Kick-Ass", title2: "II",year: "2013", url:  "https://www.youtube.com/watch?v=Td921lYSBIA", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/1go2A3gdQjaMuHWquybgoJlQRcX.jpg",  IMDB: "6.5", actor: "Chloe Grace Moretz, Aaron Taylor-Johnson, Christopher Mintz-Plasse, Jim Carrey", backgroundPos: "center center",  pic: "../assets/ASSETS/KA2.png"},
 ]
 
 
-horror1 = [
+Conjuring = [
   {title: "The Conjuring", title2: "",year: "2013", url:  "https://www.youtube.com/watch?v=k10ETZ41q5o", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/AhZUF20uDowZhzkL6mGIbYBZolK.jpg",  IMDB: "7.5", actor: "Vera Farmiga, Patrick Wilson", backgroundPos: "center center",  pic: "../assets/ASSETS/C1.png"},
   {title: "The Conjuring", title2: "2",year: "2016", url:  "https://www.youtube.com/watch?v=VFsmuRPClr4", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/1r8Op3YxGI0CSUg4ZH1Nc1PUj0T.jpg",  IMDB: "7.3", actor: "Vera Farmiga, Patrick Wilson", backgroundPos: "center center",  pic: "../assets/ASSETS/C2.png"},  
   {title: "The Conjuring", title2: "3",year: "2021", url:  "https://www.youtube.com/watch?v=h9Q4zZS2v1k",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/lkjOx3VOSi9PBll6UY6OUyQFZYe.jpg",  IMDB: "6.3",  actor: "Vera Farmiga, Patrick Wilson", backgroundPos: "center center",  pic: "../assets/ASSETS/C3.png"},
+]
+  horror1 = [
   {title: "Annabelle", title2: "I",year: "2014", url:  "https://www.youtube.com/watch?v=paFgQNPGlsg",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/gugQj8ceU2KsH8kfMjDU4qIU2i0.jpg",  IMDB: "5.4",  actor: "Annabelle Wallis, Ward Horton, Alfre Woodard", backgroundPos: "center center",  pic: "../assets/ASSETS/AB1.png"},
   {title: "Annabelle", title2: "II",year: "2017", url:  "https://www.youtube.com/watch?v=11taaQy2KBg", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/snYI6TDLkB8wL7SHFyBV6qkJuPx.jpg",  IMDB: "6.5", actor: "Talitha Bateman, Lulu Wilson, Anthony LaPaglia", backgroundPos: "center center",  pic: "../assets/ASSETS/AB2.png"},
   {title: "Annabelle", title2: "III",year: "2019", url:  "https://www.youtube.com/watch?v=bCxm7cTpBAs", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/3Ndk7Wjw8H4pOL2TxxdnRmY3At9.jpg",  IMDB: "5.9", actor: "McKenna Grace, Patrick Wilson, Madison Iseman, Vera Farmiga", backgroundPos: "center center",  pic: "../assets/ASSETS/AB3.png"},
+  ]
+ 
+ 
+  theShining = [
   {title: "The Shining", title2: "",year: "1980",  url:  "https://www.youtube.com/watch?v=5Cb3ik6zP2I", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/hljO0M5K6pmKZo9FPSi7g5Cck6B.jpg",  IMDB: "8.4",actor: "Jack Nicholson, Shelley Duvall, Danny Lloyd, Lia Bedlam", backgroundPos: "center center",  pic: "../assets/ASSETS/TS1.png"},
   {title: "Doctor Sleep", title2: "",year: "2019", url:  "https://www.youtube.com/watch?v=CDf_EnIhojk",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/p69QzIBbN06aTYqRRiCOY1emNBh.jpg",  IMDB: "7.3",  actor: "Ewan McGregor, Rebecca Ferguson, Kyleigh Curran", backgroundPos: "center center",  pic: "../assets/ASSETS/TS2.png"},
-   {title: "Paranormal Activity", title2: "I",year: "2007", url:  "https://www.youtube.com/watch?v=7TC9bKyDB5Y",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/ud8LNxvPoMldcH0WU7uREUXAN31.jpg",  IMDB: "6.3",  actor: "Katie Featherston, Micah Sloat, Mark Fredrichs", backgroundPos: "center center",  pic: "../assets/ASSETS/PA1.png"},
+  ]
+  horror2 = [
+  {title: "Paranormal Activity", title2: "I",year: "2007", url:  "https://www.youtube.com/watch?v=7TC9bKyDB5Y",image: "https://www.themoviedb.org/t/p/w220_and_h330_face/ud8LNxvPoMldcH0WU7uREUXAN31.jpg",  IMDB: "6.3",  actor: "Katie Featherston, Micah Sloat, Mark Fredrichs", backgroundPos: "center center",  pic: "../assets/ASSETS/PA1.png"},
   {title: "Paranormal Activity", title2: "II",year: "2010", url:  "https://www.youtube.com/watch?v=2leETkgvzCA", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/esBnPPbJlWwjjJ7NTofcTaMGzE3.jpg",  IMDB: "5.7", actor: "Katie Featherston, Micah Sloat, Molly Ephraim", backgroundPos: "center center",  pic: "../assets/ASSETS/PA2.png"},
   {title: "Paranormal Activity", title2: "III",year: "2011", url:  "https://www.youtube.com/watch?v=e70TX_photI", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/9nYranPiWdNmbD5PRPPSL7VUFTS.jpg",  IMDB: "5.8", actor: "Katie Featherston, Chloe Csengery, Lauren Bittner ", backgroundPos: "center center",  pic: "../assets/ASSETS/PA3.png"},
   {title: "Paranormal Activity", title2: "IV",year: "2012", url:  "https://www.youtube.com/watch?v=g7Xn2JqH5ng", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/na5tAslm1kGNcft083AIXMTOsYR.jpg",  IMDB: "4.6", actor: "Katie Featherston, Kathryn Newton, Brady Allen, ", backgroundPos: "center center",  pic: "../assets/ASSETS/PA4.png"},
@@ -173,6 +188,9 @@ horror1 = [
   {title: "The Exorcist", title2: "V",year: "2005", url:  "https://www.youtube.com/watch?v=5HAZtloPE3I", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/3jIQOCB8ghrxvfWzSjzNv41LR9P.jpg",  IMDB: "5.2", actor: "Stellen Skarsgard, Clara Bellar", backgroundPos: "center center",  pic: "../assets/ASSETS/TE5.png"},
   
 ]
+
+
+
 captainF = [
   {title: "Captain Fantastic", title2: "",year: "2016", url:  "https://www.youtube.com/watch?v=D1kH4OMIOMc", image: "https://www.themoviedb.org/t/p/w220_and_h330_face/2sFME73GaD8UsUxPUKe60cPdLif.jpg",  IMDB: "7.8",   actor: "Viggo Mortensen, Samantha Isler, George MacKay, Annalise Basso", backgroundPos: "center center",  pic: "../assets/ASSETS/CF1.png"},
   {title: "Into the Wild", title2: "",year: "2007", url:  "https://www.youtube.com/watch?v=lwtZgBFKlzs",  image: "https://www.themoviedb.org/t/p/w220_and_h330_face/2MSGZEE6XZd2r4ODNziwAw7Hpw0.jpg",  IMDB: "8.1",  actor: "Emile Hirsch, Kristen Stewart, Vince Vaughn", backgroundPos: "center center",  pic: "../assets/ASSETS/CF2.png"},
