@@ -1,7 +1,7 @@
 
 <div style="display: block; padding-bottom: 10px;">
-<p style="color: white">{{display.fantasy}}{{display.sciFi}}{{display.action}}{{display.comicBook}}{{display.horror}}{{display.misc}}</p>
-<div id="divider" [hidden]=display.sciFi [hidden]=display.action [hidden]=display.comicBook [hidden]=display.horror [hidden]=display.misc>
+
+<div id="divider" *ngIf=display.fantasy>
 
 <div id="container1a"  ><div id="container2">
 <div id="box1" *ngFor="let dataPoints of lotr;">
@@ -17,7 +17,7 @@
 
 
 <div id="container2">
-<div id="box" *ngFor="let dataPoints of data;">
+<div id="box" *ngFor="let dataPoints of HP;">
 <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
 <div id="card-grid">    
 <div id="A">{{dataPoints.title}}</div>
@@ -39,9 +39,39 @@
 </div>
 </div>
 </div></div>
+
+<div id="container2">
+    <div id="box" *ngFor="let dataPoints of FB;">
+    <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+    <div id="card-grid">    
+    <div id="A">{{dataPoints.title}}</div>
+    <div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+    <div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+    
+    </div>
+    </div>
+    </div>
+
 </div>
 
-<div id="divider" [hidden]=display.fantasy [hidden]=display.action [hidden]=display.comicBook [hidden]=display.horror [hidden]=display.misc>
+
+
+<div id="divider" *ngIf=display.sciFi>
+
+<div id="container1c">
+
+<div id="container2">
+<div id="box1" *ngFor="let dataPoints of starTrek;">
+<a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
+<div id="card-grid">    
+<div id="A">{{dataPoints.title}}</div>
+<div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
+<div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+
+</div>
+</div>
+</div></div>
+
 
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of sciFi1;">
@@ -82,22 +112,18 @@
 </div>
 </div>
 
-<div id="container1c">
 
-<div id="container2">
-<div id="box1" *ngFor="let dataPoints of starTrek;">
-<a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
-<div id="card-grid">    
-<div id="A">{{dataPoints.title}}</div>
-<div id="B">{{dataPoints.title2}}({{dataPoints.year}})</div>
-<div id="C">IMDB Rating: {{dataPoints.IMDB}}★</div>
+
+
+
+
 
 </div>
-</div>
-</div></div>
-</div>
 
-<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.comicBook [hidden]=display.horror [hidden]=display.misc>
+
+
+
+<div id="divider" *ngIf=display.action>
 
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of action1;">
@@ -113,7 +139,7 @@
 </div>
 
 
-<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.action [hidden]=display.horror [hidden]=display.misc>
+<div id="divider" *ngIf=display.comicBook>
 
 <div id="container1d">
 
@@ -159,7 +185,7 @@
 </div>
 
 
-<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.action [hidden]=display.comicBook [hidden]=display.misc>
+<div id="divider" *ngIf=display.horror>
 
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of horror1;">
@@ -175,7 +201,7 @@
 </div>
 
 
-<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.action [hidden]=display.comicBook [hidden]=display.horror>
+<div id="divider" *ngIf=display.misc>
 
 
 <div id="container1f">

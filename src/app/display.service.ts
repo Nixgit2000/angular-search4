@@ -5,22 +5,22 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DisplayService {
-  public allMovies = false
-  public fantasy = false
-  public sciFi = false
-  public action = false
-  public comicBook = false
-  public horror = false
-  public misc = false
+  public allMovies = true
+  public fantasy = true
+  public sciFi = true
+  public action = true
+  public comicBook = true
+  public horror = true
+  public misc = true
 
   allMoviesFN() {
     this.allMovies = true
-    this.fantasy = false
-    this.sciFi = false
-    this.action = false
-    this.comicBook = false
-    this.horror = false
-    this.misc = false
+    this.fantasy = true
+    this.sciFi = true
+    this.action = true
+    this.comicBook = true
+    this.horror = true
+    this.misc = true
     return this.allMoviesFN
   }
 
