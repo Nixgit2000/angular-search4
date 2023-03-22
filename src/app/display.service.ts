@@ -5,33 +5,89 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DisplayService {
-  allMovies = false
+  public allMovies = false
+  public fantasy = false
+  public sciFi = false
+  public action = false
+  public comicBook = false
+  public horror = false
+  public misc = false
+
   allMoviesFN() {
-    return this.allMovies = !this.allMovies
+    this.allMovies = true
+    this.fantasy = false
+    this.sciFi = false
+    this.action = false
+    this.comicBook = false
+    this.horror = false
+    this.misc = false
+    return this.allMoviesFN
   }
 
-  fantasy = false
+  
   fantasyFN() {
-    return this.fantasy = !this.fantasy
+    this.allMovies = false
+    this.fantasy = true
+    this.sciFi = false
+    this.action = false
+    this.comicBook = false
+    this.horror = false
+    this.misc = false
+    return this.fantasyFN
   }
-  sciFi = false
+  
   sciFiFN() {
-    return this.sciFi = !this.sciFi
+    this.allMovies = false
+    this.fantasy = false
+    this.sciFi = true
+    this.action = false
+    this.comicBook = false
+    this.horror = false
+    this.misc = false
+    return this.sciFiFN
   }
-  action = false
+  
   actionFN() {
-    return this.action = !this.action
+    this.allMovies = false
+    this.fantasy = false
+    this.sciFi = false
+    this.action = true
+    this.comicBook = false
+    this.horror = false
+    this.misc = false
+    return this.actionFN
   }
-  comicBook = false
+  
   comicBookFN() {
-    return this.comicBook = !this.comicBook
+    this.allMovies = false
+    this.fantasy = false
+    this.sciFi = false
+    this.action = false
+    this.comicBook = true
+    this.horror = false
+    this.misc = false
+    return this.comicBookFN
   }
-  horror = false
+  
   horrorFN() {
-    return this.horror = !this.horror
+    this.allMovies = false
+    this.fantasy = false
+    this.sciFi = false
+    this.action = false
+    this.comicBook = false
+    this.horror = true
+    this.misc = false
+    return this.horrorFN
   }
-  misc = false
+  
   miscFN() {
-    return this.misc = !this.misc
+    this.allMovies = false
+    this.fantasy = false
+    this.sciFi = false
+    this.action = false
+    this.comicBook = false
+    this.horror = false
+    this.misc = true
+    return this.miscFN
   }
 }

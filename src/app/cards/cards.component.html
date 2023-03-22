@@ -1,10 +1,9 @@
 
-<div [hidden]="display.allMovies">
 <div style="display: block; padding-bottom: 10px;">
+<p style="color: white">{{display.fantasy}}{{display.sciFi}}{{display.action}}{{display.comicBook}}{{display.horror}}{{display.misc}}</p>
+<div id="divider" [hidden]=display.sciFi [hidden]=display.action [hidden]=display.comicBook [hidden]=display.horror [hidden]=display.misc>
 
-
-<div [hidden]=display.sciFi>
-<div id="container1a"><div id="container2">
+<div id="container1a"  ><div id="container2">
 <div id="box1" *ngFor="let dataPoints of lotr;">
 <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
 <div id="card-grid">    
@@ -40,10 +39,10 @@
 </div>
 </div>
 </div></div>
-
 </div>
 
-<div [hidden]=display.fantasy [hidden]=display.sciFi>
+<div id="divider" [hidden]=display.fantasy [hidden]=display.action [hidden]=display.comicBook [hidden]=display.horror [hidden]=display.misc>
+
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of sciFi1;">
 <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
@@ -98,6 +97,8 @@
 </div></div>
 </div>
 
+<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.comicBook [hidden]=display.horror [hidden]=display.misc>
+
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of action1;">
 <a href={{dataPoints.url}}><div id="image"><img src="{{dataPoints.image}}"></div></a>
@@ -109,7 +110,10 @@
 </div>
 </div>
 </div>
+</div>
 
+
+<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.action [hidden]=display.horror [hidden]=display.misc>
 
 <div id="container1d">
 
@@ -152,7 +156,10 @@
 </div>
 </div>
 </div></div>
+</div>
 
+
+<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.action [hidden]=display.comicBook [hidden]=display.misc>
 
 <div id="container2">
 <div id="box" *ngFor="let dataPoints of horror1;">
@@ -165,8 +172,11 @@
 </div>
 </div>
 </div>
+</div>
 
-<div [hidden]=display.misc></div>
+
+<div id="divider" [hidden]=display.fantasy [hidden]=display.sciFi [hidden]=display.action [hidden]=display.comicBook [hidden]=display.horror>
+
 
 <div id="container1f">
 

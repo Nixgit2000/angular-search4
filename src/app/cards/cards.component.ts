@@ -8,22 +8,8 @@ import { DisplayService } from '../display.service';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent {
-allMovies:boolean
-  fantasy:boolean
-  sciFi: boolean
-  action: boolean
-  comicBook: boolean
-  horror: boolean
-  misc: boolean
 
 constructor(public display: DisplayService) {
-  this.allMovies = !this.display.allMovies
-  this.fantasy = !this.display.fantasy
-  this.sciFi = !this.display.sciFi
-  this.action = !this.display.action 
-  this.comicBook = !this.display.comicBook
-  this.horror = !this.display.horror
-  this.misc = !this.display.misc
 }
 
 
@@ -209,6 +195,6 @@ simonP = [
   
 ]
 
-  number = Math.round(Math.floor(Math.random() * 10))
+
 
 }
